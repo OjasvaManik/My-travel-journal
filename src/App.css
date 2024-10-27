@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span {
+    padding-left: 5px;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.app--container {
+    /*width: 550px;*/
+    /*height: 704px;*/
+    background: white;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background: #F55A5A;
+    margin-bottom: 20px;
+}
+
+.card {
+    /*width: 470px;*/
+
+}
+
+.card--wrapper {
+    /*width: 470px;*/
+    height: 177px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px 10px 20px;
+    gap: 20px;
+}
+
+.card--image {
+    /*width: 125px;*/
+    height: 177px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card--content {
+    width: 470px;
+    height: 177px;
+    text-wrap: wrap;
+}
+
+.card--icon, .card--location-link, .card--trip-time {
+    font-size: 10px;
+}
+
+.card--trip-time {
+    font-weight: 700;
+}
+
+.card--location {
+    margin-top: 10px;
+    /*width: 326px;*/
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card--location > a {
+    padding-left: 5px;
+}
+
+.card--description {
+    font-size: 10px;
+}
